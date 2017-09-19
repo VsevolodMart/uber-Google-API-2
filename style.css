@@ -1,0 +1,31 @@
+#map {
+    height: 100%;
+}
+html, body {
+    /*width: 100%;*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+form{
+
+}
+
+form {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ffffff;
+    font-weight: 700;
+}
+#estimate{
+    float: left;
+}
