@@ -26,6 +26,10 @@ form {
     color: #ffffff;
     font-weight: 700;
 }
+form input{
+    width: 300px;
+}
+
 #estimate{
-    float: left;
+    /*float: left;*/
 }
