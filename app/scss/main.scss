@@ -1,0 +1,62 @@
+//@import "utils/variables";
+//@import "utils/settings";
+//@import "utils/fonts_";
+//@import "icons";
+//@import "utils/reset";
+//@import "utils/media-queries";
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .wrapper{
+      position: absolute;
+      z-index:1;
+      height: 40px;
+      background-color: rgba(0, 0, 0, .5);
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      .head__buttons{
+        position: relative;
+        width: 160px;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        a{
+          color: white;
+          font: serif;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  #map {
+    height: 100%;
+  }
+  form {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ffffff;
+    font-weight: 700;
+    input{
+      width: 300px;
+    }
+  }
+}

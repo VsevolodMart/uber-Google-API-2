@@ -1,0 +1,53 @@
+/* reset */
+$min-width: 320px; 
+$max-width: 1350px;
+$base-bg: #FFF; 
+$base-font-size: 13px; 
+$base-line-height: 18px; 
+$base-font-family: Arial, sans-serif;
+$custom-font-family: 'Open Sans', sans-serif;
+$link-color: #100da9;
+$default-transition: all 0.2s linear;
+
+/* main variables */
+
+$green: #02b875;
+$green-light: #00af81;
+$yellow: #f6c90e;
+$black: #1d1d1d;
+$white: #ffffff;
+$gray: rgba(0,0,0,.44);;
+//$dark-gray: #666666;
+//$light-grey: #dddfdf;
+//$form-color: $light-grey;
+$border-radius: 4px;
+$button-radius: 45px;
+$box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+$black-opacity: rgba($black, 0.5);
+
+//text, titles
+$text-color: $black;
+$title-color: $black;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 42px;
+$line-height-h1: 48px;
+$font-size-h2: 38px;
+$line-height-h2: 41px;
+$font-size-h3: 32px;
+$line-height-h3: 38px;
+/*
+
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "../img/loader.gif" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\276e" !default;
+$slick-next-character: "\276f" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;*/

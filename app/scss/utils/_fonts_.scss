@@ -1,0 +1,72 @@
+
+    //Roboto-Regular
+$Roboto-Regular: 'Roboto-Regular';
+$Roboto-RegularPath: '../../fonts/Roboto-Regular';
+
+
+    //Roboto-Bold
+$Roboto-Bold: 'Roboto-Bold';
+$Roboto-BoldPath: '../../fonts/Roboto-Bold';
+
+    //Roboto-Medium
+$Roboto-Medium: 'Roboto-Medium';
+$Roboto-MediumPath: '../../fonts/Roboto-Medium';
+
+
+@mixin Roboto-Regular($Roboto-Regular, $Roboto-RegularPath) {
+  @font-face {
+    font: {
+      family: $Roboto-Regular;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$Roboto-RegularPath}.eot'); //IE9 Compat Modes
+    src: url('#{$Roboto-RegularPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+    url('#{$Roboto-RegularPath}.woff') format('woff'), //Modern Browsers
+    url('#{$Roboto-RegularPath}.woff2') format('woff2'), //Modern Browsers
+    url('#{$Roboto-RegularPath}.ttf') format('truetype'), //Safari, Android, iOS
+    url('#{$Roboto-RegularPath}.svg##{$Roboto-Regular}') format('svg'); //Old iOS devices
+  }
+}
+@mixin Roboto-Medium($Roboto-Medium, $Roboto-MediumPath) {
+  @font-face {
+    font: {
+      family: $Roboto-Medium;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$Roboto-MediumPath}.eot'); //IE9 Compat Modes
+    src: url('#{$Roboto-MediumPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+    url('#{$Roboto-MediumPath}.woff') format('woff'), //Modern Browsers
+    url('#{$Roboto-MediumPath}.woff2') format('woff2'), //Modern Browsers
+    url('#{$Roboto-MediumPath}.ttf') format('truetype'), //Safari, Android, iOS
+    url('#{$Roboto-MediumPath}.svg##{$Roboto-Medium}') format('svg'); //Old iOS devices
+  }
+}
+
+@mixin Roboto-Bold($Roboto-Bold, $Roboto-BoldPath) {
+  @font-face {
+    font: {
+      family: $Roboto-Bold;
+      weight: normal;
+      style: normal;
+    }
+    src: url('#{$Roboto-BoldPath}.eot'); //IE9 Compat Modes
+    src: url('#{$Roboto-BoldPath}.eot?#iefix') format('embedded-opentype'), //IE6-IE8
+    url('#{$Roboto-BoldPath}.woff') format('woff'), //Modern Browsers
+    url('#{$Roboto-BoldPath}.woff2') format('woff2'), //Modern Browsers
+    url('#{$Roboto-BoldPath}.ttf') format('truetype'), //Safari, Android, iOS
+    url('#{$Roboto-BoldPath}.svg##{$Roboto-Bold}') format('svg'); //Old iOS devices
+  }
+}
+
+
+@include Roboto-Regular($Roboto-Regular, $Roboto-RegularPath);
+@include Roboto-Medium($Roboto-Medium, $Roboto-MediumPath);
+@include Roboto-Bold($Roboto-Bold, $Roboto-BoldPath);
+
+
+
+
+
+

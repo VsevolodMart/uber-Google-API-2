@@ -5,29 +5,23 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app/css/main.css">
     <title>Document</title>
 </head>
-<body class="body" onload="initialize()">
-<div id="map"></div>
-<form id="form" name="name" action="#">
-    <input id="from" type="text" name="from" placeholder="From">
-    <input id="to" type="text" name="to" placeholder="To">
-    <button id="submit" type="submit" name="submit">submit</button>
-    <label id="rideFrom">origin</label>
-    <label id="rideTo">destination</label>
-    <div id="estimate"><span>Cost: </span></div>
-</form>
-
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
-<script type="text/javascript"  async defer
+<body class="body">
+    <header>
+        <div class="wrapper">
+            <div class="head__buttons">
+                <a href="main">main</a>
+                <a href="login">logIn</a>
+            </div>
+        </div>
+    </header>
+    <div id="map"></div>
+    <div id="root"></div>
+    <script type="text/javascript"  async defer
         src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD7h0zkuIkl_pjuLXepo0pFeX5BTRf82Xw&libraries=places">
-</script>
-
-<!--<script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV5vot0pAb76AsCLlqPA-0KNgzCILMPMk&libraries&callback=initMap">
-</script>-->
-
-<script src="index.js"></script>
+    </script>
+    <script src="app/js/build.js"></script>
 </body>
 </html>
